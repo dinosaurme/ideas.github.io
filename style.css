@@ -1,0 +1,149 @@
+/* general styles */
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+/* header styles */
+header {
+  background-color:white;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* date styles */
+.header-date p {
+  font-size: 20px;
+}
+
+/* ideas section styles */
+.ideas-section {
+  background-color: white;
+  padding: 20px;
+}
+
+.ideas-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* feed section styles */
+.feed-section {
+  background-color: white;
+}
+
+.feed-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+/* button styles */
+button {
+  background-color: #00B4D8;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* feed styles */
+.feed {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+  padding: 20px;
+  overflow: hidden;
+  word-wrap: break-word;
+}
+
+.feed p {
+  margin: 0;
+  font-size: 18px;
+  word-wrap: break-word;
+}
+
+.feed-date {
+  color: #999;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+#ideaInput {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+}
+
+
+.feed button {
+  float: right;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+/* Instagram's main color scheme */
+:root {
+  --instagram-color: #405DE6;
+}
+
+/* Apply Instagram's main color to the "Post" button */
+button {
+  background-color: #EB455F; /* Facebook blue */
+  color: #fff; /* white text */
+  border-radius: 4px; /* rounded corners */
+  padding: 8px 12px; /* add padding for touch targets */
+  font-size: 14px; /* adjust font size */
+  cursor: pointer; /* change cursor to pointer on hover */
+  text-align: center; /* center text in button */
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  outline: none;
+}
+
+button:hover {
+    background-color: #2B3467; /* darker shade of Facebook blue on hover */
+}
+
+button span {
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+
+@media (max-width: 800px) {
+  /*Change the layout of your website when screen width is less than 800px*/
+}
+#ideaInput {
+  width:600px;
+  height:40px;
+  font-size:20px;
+}
+#ideaInput:focus {
+  width:600px;
+  height:40px;
+}
