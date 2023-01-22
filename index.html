@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Ideas</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="header-date">
+      <p id="date"></p>
+    </div>
+  </header>
+  <main>
+    <section class="ideas-section">
+      <div class="ideas-container">
+        <table>
+          <tr>
+            <td><input type="text" id="ideaInput"></td>
+            <td><button onclick="saveIdea()">Post</button></td>
+            <td><button onclick="clearAllIdeas()">Delete</button></td>
+          </tr>
+        </table>
+      </div>
+    </section>
+    <section class="feed-section">
+      <div class="feed-container" id="ideas">
+        <!-- ideas will get loaded here -->
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
